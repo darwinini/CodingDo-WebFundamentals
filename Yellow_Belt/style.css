@@ -1,0 +1,263 @@
+/* Ramon Darwin Garcia */
+/* Coding Dojo Yellow Belt */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #eee;
+}
+
+h1, h2, p, a, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+.main > div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 700px;
+    margin-top: 0;
+    display: flex;
+    background-color: #eee;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    border-top: #AA14F0 5px solid;
+    padding-top: 7px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 7px;
+    
+    
+}
+
+/* .nav > div {
+    align-items: center;
+    justify-content: space-between;
+
+} */
+
+.title {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-right: 150px; */
+    margin-top:10px;
+   
+    
+    
+}
+
+
+.gaming {
+    color: white
+}
+
+.dojo {
+    color: #AA14F0;
+}
+
+.cart {
+    height: 30px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+      
+}
+
+.currency {
+    margin-right: 15px;
+}
+
+.cart-total {
+    color: white;
+    text-decoration: underline;
+}
+
+.slider {
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    
+
+}
+
+.image-slider {
+    /* border: blue 1px solid; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.slide-images {
+    height: 60%;
+    width: 60%;
+}
+
+/* Slider */
+.left-arrow,
+.right-arrow {
+  display: block;
+  width: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  
+  
+}
+
+.left-arrow::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 11px;
+  background-color: #444;
+  border-radius: 2px;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.left-arrow::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 11px;
+  margin-top: 10px;
+  background-color: #444;
+  border-radius: 2px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.right-arrow::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 11px;
+  background-color: #444;
+  border-radius: 2px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.right-arrow::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 11px;
+  margin-top: 10px;
+  background-color: #444;
+  border-radius: 2px;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+/* product listing section */
+
+.product {
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.cafe-neko{
+    grid: 1f;
+    background-color: white;
+    justify-self: center;
+    margin-right: 20px;
+
+}
+
+.stock-image { 
+    height: 70px;
+    width: 170px;
+   
+}
+
+.icon {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.sale {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+
+.percent-off {
+    background-color: #AA14F0;
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    align-self: center;
+}
+
+.buy {
+    background-color: #87CC87;
+    padding: 4px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+.strikethrough {
+    text-decoration: line-through; 
+    color:lightslategray;
+}
+
+.pixel-ninjas  {
+    grid: 1fr;
+    justify-self: center;
+    margin-right: 20px;
+    background-color:white;
+}
+
+.stonepunk{
+    grid: 1fr;
+    background-color: white;
+    justify-self: center;
+}
+
+.alert {
+    cursor: pointer;
+}

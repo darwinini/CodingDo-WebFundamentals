@@ -1,0 +1,55 @@
+/* css file for Ramon Garcia's Registration Form */
+
+.header {
+    margin-left: 2%;
+}
+
+.wrapper {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+.padding {
+    padding-top: 14px;
+}
+
+.link {
+    padding-right: 7px;
+}
+
+
+.profile_img {
+    width: 120px;
+    height: 100px;
+}
+
+.box {
+    border-style:ridge;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+.social {
+    width: 40px;
+    height: 70px;
+}
+
+th {
+    border-top: none;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    
+}
+
+.description {
+    width: 300px;
+    height: 50px;
+}

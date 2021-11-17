@@ -1,0 +1,102 @@
+h1, h2, p, a, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li, h2 {
+    color:white;
+    font-weight: normal;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float:left;
+    padding: 5px;
+    align-items: center;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.special-button {
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+    border-radius: 25px;
+    border: purple 2px solid;
+    padding: 7px;
+}
+
+.heart {
+    height: 35px;
+}
+
+.row {
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.find {
+    /* display: flex; */
+    padding: 10px;
+    margin: 10px;   
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.paw {
+    height: 25px;
+}
+
+.col {
+    flex: 1; 
+    padding: 10px;
+    margin: 10px;   
+    background-color: cadetblue;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+
+}
+
+.col-3 {
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+
+}
+
+.col-4 {
+    flex:5;
+    padding: 10px;
+    /* margin: 10px; */
+    background-color: cadetblue;
+}

@@ -1,0 +1,39 @@
+.nav {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+        
+    
+}
+
+a, ul {
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+    text-decoration:none;
+    /* font-family: Roboto; */
+    
+}
+
+button {
+    color: white;
+    background-color: lightblue;
+    border-radius: 5px;
+
+}
+

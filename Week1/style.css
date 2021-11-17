@@ -1,0 +1,14 @@
+body {
+    background-color: rebeccapurple;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pic {
+    width: 250px;
+}
+
+.card { 
+    display: inline-block;
+    margin: 10px;
+}

@@ -1,0 +1,109 @@
+/* Ramon Darwin Garcia */
+/* Stylesheet for Pet Shelter's index.html file */
+
+* {
+    margin: 0;
+    padding:0;
+}
+/* styling the fonts to Roboto */
+h1, h2, p, a, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    
+    /* grid-auto-rows:auto; */
+    /* grid-template-columns: 3fr, 2fr, 1fr; */
+    /* row-gap: 10px; */
+    /* background-color: #ddd; */
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* row-gap: 1em; */
+
+
+}
+
+
+
+.heart {
+    height: 30px;
+    
+}
+
+/* ul {
+    padding-inline-start: 0;
+
+} */
+
+
+
+
+.title {
+    border:black 1px solid;
+    grid-column: 1/3;
+    grid-row:1/2;
+    /* display: inline-block; */
+    background-color: #A0E7E5;
+    
+    
+   
+}
+
+.title li {
+    display: inline-block;
+    list-style:none;
+    
+    
+}
+
+
+.menu {
+    background-color:mediumaquamarine;
+    grid-column: 3/8;
+    grid-row:1/2;
+}
+
+.menu li {
+
+    display: inline-block;
+    
+}
+
+
+.bottom-nav {
+    background-color: teal;
+    
+   
+
+}
+
+
+
+.main {
+
+    border:blue 3px solid;
+    display: grid;
+    grid-template-rows: auto;
+    /* grid-template-columns: 100%; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    margin-top: 1em;
+    row-gap: 10px;
+    
+}
+
+
+
+.pepper {
+    
+    background-color: #ddd;  
+
+}
+
+.bruce {
+    background-color: #ddd;
+
+}
+
+.oscar {
+    background-color: #ddd;
+}
